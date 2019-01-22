@@ -11,9 +11,9 @@ Go into the repository
 
 `cd babel-service`
 
-Run the service with the provided maven wrapper
+Run the service module with the provided maven wrapper
 
-`./mvnw spring-boot:run`
+`./mvnw spring-boot:run -pl server`
 
 Send a message to the service. For sending "hi", with `curl` on the command line, use:
 
@@ -21,12 +21,21 @@ Send a message to the service. For sending "hi", with `curl` on the command line
 
 ## Key features
 
-You can alter the reponse message behaviour by using startup parameter `message-response-type`. Allowed values are: `ANSWER`
+**Altering the response message behaviour**
+
+You can alter the reponse message behaviour by using startup parameter `response-type`. Allowed values are: `ANSWER`
 and `VAGUE`. The default behaviour is `ANSWER`
 
 To start the server with a `VAGUE` behaviour:
 
-`./mvnw spring-boot:run --message.response-strateg=ANSWER`
+`./mvnw spring-boot:run -Dspring-boot.run.arguments=--response-strategy=VAGUE -pl server`
+
+**Run the server on a different port**
+
+The server runs default on port `9090`, however it is possible to change this by using the `port` parameter.
+
+`./mvnw spring-boot:run -Dspring-boot.run.arguments=--port=9091 -pl server`
+
 
 ## License
 

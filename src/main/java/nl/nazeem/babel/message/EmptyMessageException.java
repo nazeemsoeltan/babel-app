@@ -1,4 +1,4 @@
-package nl.nazeem.service.babel.message;
+package nl.nazeem.babel.message;
 
 public class EmptyMessageException extends Exception {
 

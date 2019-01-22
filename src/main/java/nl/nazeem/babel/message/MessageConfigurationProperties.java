@@ -1,6 +1,6 @@
-package nl.nazeem.service.babel.message;
+package nl.nazeem.babel.message;
 
-import nl.nazeem.service.babel.messageresponse.MessageResponseType;
+import nl.nazeem.babel.messageresponse.MessageResponseType;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 

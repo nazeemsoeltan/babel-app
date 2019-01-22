@@ -1,6 +1,6 @@
-package nl.nazeem.service.babel.errorresponse;
+package nl.nazeem.babel.errorresponse;
 
-import nl.nazeem.service.babel.message.EmptyMessageException;
+import nl.nazeem.babel.message.EmptyMessageException;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseStatus;

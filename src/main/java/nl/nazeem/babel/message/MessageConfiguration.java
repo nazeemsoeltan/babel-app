@@ -1,9 +1,9 @@
-package nl.nazeem.service.babel.message;
+package nl.nazeem.babel.message;
 
-import nl.nazeem.service.babel.messageresponse.AnswerMessageResponseStrategy;
-import nl.nazeem.service.babel.messageresponse.MessageResponseStrategy;
-import nl.nazeem.service.babel.messageresponse.MessageResponseType;
-import nl.nazeem.service.babel.messageresponse.VagueMessageResponseStrategy;
+import nl.nazeem.babel.messageresponse.AnswerMessageResponseStrategy;
+import nl.nazeem.babel.messageresponse.MessageResponseStrategy;
+import nl.nazeem.babel.messageresponse.MessageResponseType;
+import nl.nazeem.babel.messageresponse.VagueMessageResponseStrategy;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

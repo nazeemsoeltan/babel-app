@@ -1,6 +1,6 @@
-package nl.nazeem.service.babel.message;
+package nl.nazeem.babel.message;
 
-import nl.nazeem.service.babel.messageresponse.MessageResponse;
+import nl.nazeem.babel.messageresponse.MessageResponse;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

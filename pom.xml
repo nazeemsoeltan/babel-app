@@ -8,11 +8,11 @@
         <version>2.1.2.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>nl.nazeem.service.babel</groupId>
-    <artifactId>service-of-babel</artifactId>
+    <groupId>nl.nazeem.babel</groupId>
+    <artifactId>babel-app</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>babel-service</name>
-    <description>Service of Babel App</description>
+    <name>Babel App</name>
+    <description>Babel App</description>
 
     <properties>
         <java.version>1.8</java.version>

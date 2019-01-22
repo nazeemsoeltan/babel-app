@@ -1,4 +1,4 @@
-package nl.nazeem.service.babel.messageresponse;
+package nl.nazeem.babel.messageresponse;
 
 import org.junit.Test;
 
@@ -6,9 +6,9 @@ import static org.hamcrest.Matchers.isEmptyString;
 import static org.hamcrest.Matchers.not;
 import static org.junit.Assert.*;
 
-public class AnswerMessageResponseStrategyTest {
+public class VagueMessageResponseStrategyTest {
 
-    private MessageResponseStrategy strategy = new AnswerMessageResponseStrategy();
+    private MessageResponseStrategy strategy = new VagueMessageResponseStrategy();
 
     @Test
     public void getResponse_nullInput_returnBlankString() {

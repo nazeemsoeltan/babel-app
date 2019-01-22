@@ -1,8 +1,8 @@
-package nl.nazeem.service.babel.message;
+package nl.nazeem.babel.message;
 
-import nl.nazeem.service.babel.messageresponse.MessageResponse;
-import nl.nazeem.service.babel.messageresponse.MessageResponseStrategy;
-import nl.nazeem.service.babel.messageresponse.MessageResponseType;
+import nl.nazeem.babel.messageresponse.MessageResponseStrategy;
+import nl.nazeem.babel.messageresponse.MessageResponseType;
+import nl.nazeem.babel.messageresponse.MessageResponse;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Component;
 

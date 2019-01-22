@@ -1,4 +1,4 @@
-package nl.nazeem.service.babel.messageresponse;
+package nl.nazeem.babel.messageresponse;
 
 import org.apache.commons.lang3.StringUtils;
 

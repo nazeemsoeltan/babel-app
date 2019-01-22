@@ -1,10 +1,10 @@
-package nl.nazeem.service.babel.message;
+package nl.nazeem.babel.message;
 
-import nl.nazeem.service.babel.messageresponse.AnswerMessageResponseStrategy;
-import nl.nazeem.service.babel.messageresponse.MessageResponse;
-import nl.nazeem.service.babel.messageresponse.MessageResponseStrategy;
-import nl.nazeem.service.babel.messageresponse.MessageResponseType;
-import nl.nazeem.service.babel.messageresponse.VagueMessageResponseStrategy;
+import nl.nazeem.babel.messageresponse.AnswerMessageResponseStrategy;
+import nl.nazeem.babel.messageresponse.MessageResponse;
+import nl.nazeem.babel.messageresponse.MessageResponseStrategy;
+import nl.nazeem.babel.messageresponse.MessageResponseType;
+import nl.nazeem.babel.messageresponse.VagueMessageResponseStrategy;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;

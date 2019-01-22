@@ -1,4 +1,4 @@
-package nl.nazeem.service.babel.errorresponse;
+package nl.nazeem.babel.errorresponse;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

@@ -40,7 +40,7 @@ public class MessageControllerTest {
     }
 
     @Test
-    public void getMessage_() throws Exception {
+    public void getMessage_message_return200Ok() throws Exception {
         when(messageService.createResponse(eq("Hi, I'am Nazeem!"))).thenReturn(Optional.of(new MessageResponse("Hi, I'am Nazeem!")));
 
         mockMvc.perform(get("/message/Hi, I'am Nazeem!").contentType(MediaType.APPLICATION_JSON_UTF8))

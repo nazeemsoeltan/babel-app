@@ -5,7 +5,7 @@
 
 Clone this repository. You'll need Git. To do this from the command line:
 
-`git clone https://github.com/nazeemsoeltan/babel-service.git`
+`git clone https://github.com/nazeemsoeltan/babel-app.git`
 
 Go into the repository
 
